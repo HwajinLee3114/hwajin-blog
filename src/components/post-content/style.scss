@@ -8,3 +8,13 @@
   width: 100%;
   margin-bottom: 20px;
 }
+
+::selection {
+  background-color: #afb0de75;
+}
+
+h2 {
+  color: var(--main-color);
+  border-bottom: 1px solid var(--post-card-border-color);
+  padding-bottom: 2%;
+}

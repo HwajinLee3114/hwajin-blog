@@ -25,7 +25,7 @@
 
     &:hover {
       .title {
-        text-decoration: underline;
+        // text-decoration: underline;
       }
     }
 
@@ -66,9 +66,10 @@
 
         .category {
           margin-left: 4px;
+          color: var(--main-color);
 
           &:hover {
-            text-decoration: underline;
+            // text-decoration: underline;
           }
         }
       }

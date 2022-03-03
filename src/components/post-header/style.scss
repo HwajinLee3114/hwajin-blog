@@ -24,10 +24,10 @@
     .category {
       margin-right: 4px;
       font-weight: 600;
-      color: var(--primary-text-color);
+      color: var(--main-color);
 
       &:hover {
-        text-decoration: underline;
+        // text-decoration: underline;
       }
     }
   }
@@ -54,7 +54,8 @@
     }
 
     strong {
-      color: var(--primary-text-color);
+      // color: var(--primary-text-color);
+      color: #4f5081;
       font-weight: 600;
     }
   }
