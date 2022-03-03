@@ -4,7 +4,7 @@ title: 쉽고 빠르게 나만의 개츠비(Gatsby) 블로그 만들기
 date: '2021-03-22 23:00:00'
 author: 줌코딩
 tags: blog gatsby theme 개츠비 테마
-categories: 블로그 featured
+categories: Example
 ---
 
 ## 👋 소개
@@ -88,16 +88,16 @@ comments: {
 
 ```js
 author: {
-    name: '정진혁',
+    name: '이화진',
     bio: {
       role: '개발자',
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      description: ['꾸준히 발전해 나가는', '능동적으로 일하는', '이로운 것을 만드는'],
       thumbnail: 'zoomkoding.gif',
     },
     social: {
       github: 'https://github.com/zoomKoding',
-      linkedIn: 'https://www.linkedin.com/in/jinhyeok-jeong-800871192',
-      email: 'zoomkoding@gmail.com',
+      // linkedIn: 'https://www.linkedin.com/in/jinhyeok-jeong-800871192',
+      email: 'jamong@kakao.com',
     },
 },
 ```
