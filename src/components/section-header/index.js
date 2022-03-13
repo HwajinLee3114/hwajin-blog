@@ -4,8 +4,8 @@ import './style.scss';
 function SectionHeader({ title }) {
   return (
     <div className="section-header-wrapper">
-      <div className="section-header">
-        <h2>{title}</h2>
+      <div className="section-header" style={{ borderBottom: '0 !important' }}>
+        <h2 style={{ paddingBottom: '10px' }}>{title}</h2>
       </div>
     </div>
   );
