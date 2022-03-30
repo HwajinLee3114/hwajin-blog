@@ -1,6 +1,6 @@
 ---
 title: '[노마드 코더] 실전형 리액트 Hooks useEffect'
-date: '2022-02-20 00:00:00'
+date: '2022-02-22 00:00:00'
 author: 쟈몽
 tags: react nomadcoder hooks
 categories: react

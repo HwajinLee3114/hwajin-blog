@@ -7,7 +7,8 @@ categories: Gatsby
 # ![github-blog.png](github-blog.png)
 ---
 
-새로 Gatsby 블로그를 개설하고 댓글 기능을 추가하기로 했다.
+기존에 jekyll 블로그를 사용하다가 마음에 드는 템플릿을 발견하여 Gatsby 블로그로 옮기게 되었다.
+그리고 이번에는 댓글 기능도 추가하기로 했다.
 
 ## Repository 생성 및 Utterances 적용
 
