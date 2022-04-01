@@ -18,3 +18,12 @@ h2 {
   // border-bottom: 1px solid var(--post-card-border-color);
   padding-bottom: 2%;
 }
+
+.markdown > h1 > a,
+.markdown > h2 > a,
+.markdown > h3 > a,
+.markdown > h4 > a,
+.markdown > h5 > a,
+.markdown > h6 > a {
+  box-shadow: none;
+}
