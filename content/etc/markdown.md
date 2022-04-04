@@ -246,3 +246,17 @@ https://hwajin-blog.netlify.app/
 <span style='background-color:#dcffe4'>초록</span>  
 <span style='background-color:#f5f0ff'>보라</span>  
 <span style='background-color:#f7ddbe'>주황</span>
+
+## 화살표 표시
+
+```jsx
+왼쪽 화살표 : `&larr;`, `&leftarrow;`
+오른쪽 화살표 : `&rarr;`, `&rightarrow;`
+위 화살표 :  `&uarr;` ,  `&uparrow;`
+아래 화살표 : `&darr;`, `&downarrow;`
+```
+
+왼쪽 화살표 : &larr;  
+오른쪽 화살표 : &rarr;  
+위 화살표 : &uarr;  
+아래 화살표 : &darr;
