@@ -100,3 +100,5 @@ function Component() {
   return <div>{value}</div>;
 }
 ```
+
+> [참고](https://ko.redux.js.org/)

@@ -149,3 +149,5 @@ Store의 내장 함수 중 하나로, 액션이 dispatch 됐을 때마다 전달
 파라미터로는 함수 형태의 값을 받는다.
 
 리액트에서는 이 함수를 직접 사용하기 보다는, React-Redux 라이브러리에서 제공하는 `connect` 함수 또는 `useSelector` Hook을 사용해 스토어 상태에 구독한다.
+
+> [참고](https://ko.redux.js.org/)
