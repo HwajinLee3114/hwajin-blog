@@ -8,6 +8,14 @@ module.exports = {
   plugins: [
     `gatsby-plugin-advanced-sitemap`,
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://hwajin-blog.netlify.app/',
+        sitemap: 'https://hwajin-blog.netlify.app/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `assets`,
@@ -21,27 +29,6 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
-    // {
-    //   resolve: 'gatsby-plugin-robots-txt',
-    //   options: {
-    //     resolveEnv: () => NETLIFY_ENV,
-    //     env: {
-    //       production: {
-    //         policy: [{ userAgent: '*' }],
-    //       },
-    //       'branch-deploy': {
-    //         policy: [{ userAgent: '*', disallow: ['/'] }],
-    //         sitemap: null,
-    //         host: null,
-    //       },
-    //       'deploy-preview': {
-    //         policy: [{ userAgent: '*', disallow: ['/'] }],
-    //         sitemap: null,
-    //         host: null,
-    //       },
-    //     },
-    //   },
-    // },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
