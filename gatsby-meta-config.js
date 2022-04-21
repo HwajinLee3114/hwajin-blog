@@ -14,7 +14,7 @@ module.exports = {
       async: true,
     },
   },
-  ga: '0', // Google Analytics Tracking ID
+  ga: '7kTsLt9C_qdRG9gBrXQkSN_H8KM75Ztpx8208MChRks', // Google Analytics Tracking ID
   author: {
     name: `이화진`,
     bio: {

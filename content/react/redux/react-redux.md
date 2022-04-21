@@ -26,13 +26,17 @@ React-Redux에서 제공하는 Provider 컴포넌트를 리액트의 최상위 �
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import rootReducer from './redux';
+import { HelmetProvider } from 'react-helmet-async';
 
 const store = createStore(rootReducer);
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <HelmetProvider>
+      <App />
+    </HelmetProvider>
   </Provider>,
+
   document.getElementById('root'),
 );
 ```
