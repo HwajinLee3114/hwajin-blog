@@ -6,7 +6,6 @@ module.exports = {
   siteMetadata: metaConfig,
 
   plugins: [
-    // `gatsby-plugin-sitemap`,
     `gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
